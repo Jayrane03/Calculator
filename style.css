@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html ,body{
+  height: 100%;
+  width: 100%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+body{
+
+    background: rgb(6, 226, 226);
+    color: black;
+}
+#red{
+    background: red;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    word-spacing: 12px;
+
+}
+.button{
+    padding: 18px;
+    background-color: aquamarine;
+    cursor: pointer;
+    margin: 7px;
+    width: 58px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    /* font-display: none; */
+    
+    
+}
+hr{
+    min-width: 35vw;
+    margin: 9px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* width: 20vw; */
+    background: rgb(41, 41, 41);
+    max-width: 28vw;
+    min-width: 35vw;
+    /* border: 7px solid greenyellow; */
+    /* border-radius: 3px solid blueviolet;
+    */margin: auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 8px 10px rgb(136, 133, 133); 
+}
+.row{
+   margin-bottom: px;
+   /* margin-bottom: 10px; */
+}
+#last_row{
+    margin-bottom: 25px;
+}
+.row input{
+    margin: 15px;
+    font-size: 18px;
+    padding: 10px 0px;
+    border: 3px solid blueviolet;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+@media only screen and (max-width: 1150px) {
+   .container{
+    /* flex-wrap: nowrap; */
+    min-width: 85vw;
+   }
+   h1 {
+    font-size: 26px;
+}
+hr{
+width: 30vw;
+}
+  }
