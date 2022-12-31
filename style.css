@@ -9,7 +9,7 @@ html ,body{
 }
 body{
 
-    background: rgb(6, 226, 226);
+    background: antiquewhite;
     color: black;
 }
 #red{
@@ -25,7 +25,7 @@ h1{
 }
 .button{
     padding: 18px;
-    background-color: aquamarine;
+    background-color: whitesmoke;
     cursor: pointer;
     margin: 7px;
     width: 58px;
